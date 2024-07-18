@@ -1,0 +1,92 @@
+.carousel-inner img{
+    width: 100%;
+    height: 80vh;
+    margin: 5px;
+    
+}
+.full-screen-image {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: url('image/image.png') no-repeat center center/cover;
+}
+.overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: right;
+padding-right: 100px;
+    width: 100%;
+}
+.pre{
+    font-size: 6S0px;
+}
+
+.card img{
+   size: 1140px  793 px;
+}
+
+.footer-section{
+    font-size: large;
+    color: aliceblue;
+    background-color: black;
+    margin-top: 200px;
+}
+.clearfix img{
+width: 400px;    
+height: 400px;
+margin-right: 250px;
+margin-right: 50px;
+}
+.col-lg-3 {
+    margin-top: 50px;
+}
+.fw-instagram img{
+    width: calc(33.33% - 5px);
+    margin-right: 5px;
+    float: left;
+}
+.img-container {
+    position: relative;
+    padding-bottom: 100%; /* Aspect ratio 1:1 */
+    overflow: hidden;
+}
+.img-container img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.container-lg img{
+
+    max-width: 100%;
+    width: 500px;
+    height: 300px;
+}
+
+.gallery{
+    background-color: aliceblue;
+    padding: 80px 0;
+}
+.services-item {
+    margin: 20px;
+}
+.card{
+    
+    margin: 10px;
+}
+.fs-widget a{
+    text-decoration: none;
+    color: aliceblue;
+}
+.nav{
+    background-color: black;
+}
+.col-md-6 img:hover
+{
+    filter: grayscale(0%);
+
+}
